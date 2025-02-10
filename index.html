@@ -4,21 +4,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>DOM Project</title>
 </head>
-  <body>
-    <script src="index.js"></script>
-    <h1>Welcome to the Bookstore!</h1>
-    <h2>Add a book to the store</h2>
-    <form>
-      <p>Book Title</p> 
-      <input type="text" class="book-title" placeholder="tom sawyer">
-      <p>Book Author</p>
-      <input type="text" class="book-author" placeholder="author name">
-      <p></p>Book Publisher</p>
-      <input type="text" class="book-publisher" placeholder="book publisher">
-      <br><br>
-      <button class="add-book"> Add Book </button>
-    </form>
+<body>
+  <script src="index.js"></script>
+  <h1>Welcome to the Bookstore!</h1>
+  <h2>Add a book to the store</h2>
+  <form>
+    <p>Book Title</p> 
+    <input type="text" class="book-title" placeholder="tom sawyer">
+    <p>Book Author</p>
+    <input type="text" class="book-author" placeholder="author name">
+    <p></p>Book Publisher</p>
+    <input type="text" class="book-publisher" placeholder="book publisher">
+    <br><br>
+    <button class="add-book"> Add Book </button>
+  </form>
+  <table>
+          <thead>
+              <tr>
+                  <th>Title</th>
+                  <th>Author</th>
+                  <th>Publisher</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>Example Title</td>
+                  <td>Example Author</td>
+                  <td>
+                      Example Publisher 
+                      <button class="delete-button" onclick="deletePublisher(this)">Delete</button>
+                  </td>
+              </tr>
+          </tbody>
+      </table>
  </body>   
 </html>
