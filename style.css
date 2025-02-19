@@ -1,45 +1,49 @@
-.delete-button {
-    background-color: red;
+table {
+  width: 100%;
+  table-layout: fixed;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-table {
-    width: 100%; 
-    table-layout: fixed; 
-    margin-left: auto; 
-    margin-right: auto; 
-  }
-  
-  th, td {
-    width: 33.33%; 
-    text-align: left; 
-    position: relative; 
-  }
-  
-  th {
-    border-bottom: 3px solid black; 
-    font-weight: bold; 
-    background-color: #d3d3d3; 
-  }
-  
-  td {
-    border-bottom: 1px solid #ccc; 
-  }
-  
-  button.delete-button {
-    position: absolute; 
-    top: 5px; 
-    right: 5px; 
-    padding: 5px 10px; 
-    background-color: #f44336; 
-    color: white; 
-    border: none; 
-    border-radius: 5px; 
-  }
-  
-  button.delete-button:hover{
-    background-color: #d32f2f;
-  }
-  
-  
-  
-  
+th, td {
+  width: 33.33%; 
+  text-align: left;
+  position: relative;
+  padding: 10px; 
+}
+
+th {
+  border-bottom: 3px solid black; 
+  font-weight: bold; 
+  background-color: #d3d3d3;
+}
+
+td {
+  border-bottom: 1px solid #ccc;
+  padding-right: 30px;
+}
+
+button.delete-button {
+  position: absolute; 
+  top: 5px; 
+  right: 5px;
+  padding: 5px 10px; 
+  background-color: #f44336; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+button.delete-button:hover {
+  background-color: #d32f2f;
+}
+
+
+tbody tr:nth-child(1) td {
+  padding-top: 20px; 
+}
+
+tbody tr:nth-child(1) td.delete-column {
+  padding-top: 20px;
+}
