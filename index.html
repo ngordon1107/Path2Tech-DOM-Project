@@ -7,37 +7,40 @@
   <title>DOM Project</title>
 </head>
 <body>
-  <h1>Welcome to the Bookstore!</h1>
-  <h2>Add a book to the store</h2>
-  <form>
-    <p>Book Title</p> 
-    <input type="text" class="book-title" placeholder="tom sawyer">
-    <p>Book Author</p>
-    <input type="text" class="book-author" placeholder="author name">
-    <p>Book Publisher</p>
-    <input type="text" class="book-publisher" placeholder="book publisher">
-    <br><br>
-    <button class="add-book"> Add Book </button>
-  </form>
-  <table id="table">
-          <thead>
-              <tr>
-                  <th>Title</th>
-                  <th>Author</th>
-                  <th>Publisher</th>
-              </tr>
-          </thead>
-          <tbody>
-              <tr>
-                  <td>Example Title</td>
-                  <td>Example Author</td>
-                  <td>
-                      Example Publisher 
-                      <button class="delete-button" onclick="deletePublisher(this)">Delete</button>
-                  </td>
-              </tr>
-          </tbody>
-      </table>
-      <script src="index.js"></script>
+    <div class="flex-left-align">
+        <script src="index.js"></script>
+        <h1>Welcome to the Bookstore!</h1>
+        <h2>Add a book to the store</h2>
+        <form>
+            <p>Book Title</p> 
+            <input type="text" class="book-title" placeholder="tom sawyer">
+            <p>Book Author</p>
+            <input type="text" class="book-author" placeholder="author name">
+            <p>Book Publisher</p>
+            <input type="text" class="book-publisher" placeholder="book publisher">
+            <br><br>
+            <button class="add-book"> Add Book </button>
+    </form>
+    <h2>Books in Stock</h2>
+    <table id="table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Publisher</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Example Title</td>
+                    <td>Example Author</td>
+                    <td>
+                        Example Publisher 
+                        <button class="delete-button" onclick="deletePublisher(this)">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
  </body>   
 </html>
