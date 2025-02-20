@@ -1,46 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>DOM Project</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DOM Project</title>
+  </head>
+  <body>
     <div class="flex-left-align">
-        <h1>Welcome to the Bookstore!</h1>
-        <h2>Add a book to the store</h2>
-        <form>
-            <p>Book Title</p> 
-            <input type="text" class="book-title" placeholder="tom sawyer">
-            <p>Book Author</p>
-            <input type="text" class="book-author" placeholder="author name">
-            <p>Book Publisher</p>
-            <input type="text" class="book-publisher" placeholder="book publisher">
-            <br><br>
-            <button class="add-book"> Add Book </button>
-    </form>
-    <h2>Books in Stock</h2>
-    <table id="table">
-            <thead>
-                <tr>
-                    <th>Title</th>
-                    <th>Author</th>
-                    <th>Publisher</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Example Title</td>
-                    <td>Example Author</td>
-                    <td>
-                        Example Publisher 
-                        <button class="delete-button" onclick="deletePublisher(this)">Delete</button>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+      <h1>Welcome to the Bookstore!</h1>
+      <h2>Add a book to the store</h2>
+      <form>
+        <p>Book Title</p>
+        <input type="text" class="book-title" placeholder="tom sawyer">
+        <p>Book Author</p>
+        <input type="text" class="book-author" placeholder="author name">
+        <p>Book Publisher</p>
+        <input type="text" class="book-publisher" placeholder="book publisher">
+        <br><br>
+        <button class="add-book">Add Book</button>
+      </form>
+      <h2>Books in Stock</h2>
+      <table id="table">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Publisher</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr></tr>
+        </tbody>
+      </table>
     </div>
     <script src="index.js"></script>
- </body>   
+  </body>
 </html>
