@@ -5,45 +5,49 @@ table {
   margin-right: auto;
 }
 
-th, td {
-  width: 33.33%; 
-  text-align: left;
-  position: relative;
-  padding: 10px; 
-}
-
 th {
-  border-bottom: 3px solid black; 
-  font-weight: bold; 
+  border-bottom: 0.15em solid black;
+  font-weight: bold;
   background-color: #d3d3d3;
+  text-align: center; 
 }
 
-td {
-  border-bottom: 1px solid #ccc;
-  padding-right: 30px;
+tr {
+  text-align: center;
+  padding-left: 2em;
 }
+
+/* td {
+  border-bottom: 0.05em solid #ccc;
+  padding-left: 10px; 
+  padding-right: 1.5em;
+  padding-top: 1.5em; 
+  padding-bottom: 1em;
+  position: relative; 
+} */
 
 button.delete-button {
-  position: absolute; 
+  /* position: absolute; 
   top: 5px; 
-  right: 5px;
-  padding: 5px 10px; 
-  background-color: #f44336; 
-  color: white; 
-  border: none; 
-  border-radius: 5px; 
-  cursor: pointer; 
+  padding: 0.5em; */
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 0.25em;
+  cursor: pointer;
+  /* margin-left: 2em; */
+  position: relative;
+  left: 2em;
 }
 
 button.delete-button:hover {
   background-color: #d32f2f;
 }
 
-
 tbody tr:nth-child(1) td {
-  padding-top: 20px; 
+  padding-top: 1em; 
 }
 
 tbody tr:nth-child(1) td.delete-column {
-  padding-top: 20px;
+  padding-top: 1em;
 }
