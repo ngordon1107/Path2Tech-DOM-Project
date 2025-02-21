@@ -65,6 +65,7 @@ tr {
 
 td {
   font-size: .75em;
+  padding-top: 2.5em;
   border-bottom: 0.05em solid #ccc;
   padding-left: 10px; 
   padding-right: 1.5em;
@@ -85,8 +86,4 @@ button.delete-button {
 
 button.delete-button:hover {
   background-color: #d32f2f;
-}
-
-tbody tr:nth-child(1) td {
-  padding-top: 2.5em; 
 }
