@@ -1,6 +1,6 @@
-/* *{
+*{
     font-family: Arial, Helvetica, sans-serif;
-} */
+}
 body{
     margin: 0px;
     display: flex;
@@ -31,7 +31,7 @@ form{
     padding: 0.5em;
 }
 
-/* p {
+p {
     line-height: 0;
 }
 
@@ -42,7 +42,7 @@ h1 {
 h2{
     line-height: 0;
     font-size: 1.3em;
-} */
+}
 
 table {
   width: 100%;
@@ -63,27 +63,24 @@ tr {
   padding-left: 2em;
 }
 
-/* td {
+td {
+  font-size: .75em;
   border-bottom: 0.05em solid #ccc;
   padding-left: 10px; 
   padding-right: 1.5em;
-  padding-top: 1.5em; 
-  padding-bottom: 1em;
+  padding-bottom: 2em;
   position: relative; 
-} */
+}
 
 button.delete-button {
-  /* position: absolute; 
-  top: 5px; 
-  padding: 0.5em; */
+  position: absolute;
+  top: 0;
+  right: 0.1em;
+  padding: 0.4em; 
   background-color: #f44336;
   color: white;
   border: none;
-  border-radius: 0.25em;
   cursor: pointer;
-  /* margin-left: 2em; */
-  position: relative;
-  left: 2em;
 }
 
 button.delete-button:hover {
@@ -91,9 +88,5 @@ button.delete-button:hover {
 }
 
 tbody tr:nth-child(1) td {
-  padding-top: 1em; 
-}
-
-tbody tr:nth-child(1) td.delete-column {
-  padding-top: 1em;
+  padding-top: 2.5em; 
 }
