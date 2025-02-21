@@ -66,6 +66,7 @@ tr {
 td {
   font-size: .75em;
   padding-top: 2.5em;
+  border-right: 0.05em solid #ccc;
   border-bottom: 0.05em solid #ccc;
   padding-left: 10px; 
   padding-right: 1.5em;
